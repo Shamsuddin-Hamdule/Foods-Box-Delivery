@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 1%;
+    margin: 1%;
+}
+
+h2,h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+/* Add some space between the form and the driver list */
+.get-menus {
+    margin-top: 40px;
+}
+
+/* Style the driver table */
+.get-menus table {
+    width: 100%;
+    border-collapse: collapse;
+    border: #333;
+}
+
+.get-menus th,.get-menus td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.get-menus th {
+    background-color: #e0f7fa; /* Light blue for table headers */
+}
+
+.get-menus tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.get-menus tr:hover {
+    background-color: #e0f7fa; /* Lighter blue for hover effect */
+}
+
+.cuisine-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuisine-checkboxes input[type="checkbox"] {
+    margin: 10px;
+}
+
+.cuisine-checkboxes label {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.cuisine-checkboxes input[type="checkbox"]:checked + label {
+    color: #0066cc;
+}

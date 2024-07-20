@@ -1,0 +1,99 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: #f4f4f4; 
+}
+header { 
+    background: #0044cc; 
+    color: #fff; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+.container { 
+    max-width: 800px; 
+    margin: 20px auto; 
+    background: #fff; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+h1, h2 { 
+    text-align: center; 
+}
+.stats { 
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 20px; 
+}
+.stat { 
+    background: #007bff; 
+    color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    flex: 1; 
+    margin: 0 10px; 
+    text-align: center; 
+}
+.stat h3 { 
+    margin: 0; 
+}
+.form-section { 
+    margin-top: 20px; 
+}
+form { 
+    margin: 20px 0; 
+}
+label { 
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+input[type="text"], input[type="email"], input[type="number"], select { 
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button { 
+    background: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover { 
+    background: #0056b3; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+table, th, td { 
+    border: 1px solid #ddd; 
+}
+th, td { 
+    padding: 10px; 
+    text-align: left; 
+}
+th { 
+    background: #f4f4f4; 
+}
+.action-buttons { 
+    display: flex; 
+    gap: 10px; 
+}
+.action-buttons button { 
+    background: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.action-buttons button:hover { 
+    background: #0056b3; 
+}
